@@ -1,1 +1,3 @@
-# IG2026_Primer-Parcial_Segunda-Parte
+Matías Diego Vassallo
+Primer Parcial - Informática General
+Artes Multimediales - UNA
