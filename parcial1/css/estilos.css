@@ -1,0 +1,36 @@
+#contendor {
+	width: 100%;
+	max-width: 1360px;
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../img/fondo.png");
+}
+
+h1 {
+	font-family: "Arvo", serif;
+}
+
+h1 span {
+	font-size: 50px;
+}
+
+header {
+	width: 80%;
+	border: 5px solid steelblue;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	padding: 15px;
+}
