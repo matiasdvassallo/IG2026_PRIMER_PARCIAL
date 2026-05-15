@@ -1,0 +1,84 @@
+#contenedor {
+	width: 100%;
+	max-width: 1360px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../img/fondo.png);
+}
+
+header {
+	width: 80%;
+	border: 3px solid steelblue;
+	margin: auto; 
+	padding: 0;
+	text-align: center;
+	background-color: rgb(225, 225, 225, 0.9);
+}
+
+h1  {
+	font-family: "Arvo", serif;
+}
+
+h1 span {
+	font-size: 3rem;
+}
+
+header p em {
+	padding: 3px;
+	background-color: steelblue;
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	border: 3px solid steelblue;
+	margin: 15px;
+	padding: 10px;
+	background-color: lightsteelblue;
+}
+
+#art1 {
+	width: 50%;
+	border: 3px solid steelblue;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgb(255, 255, 255, 0.9);
+}
+
+#art1 h2 {
+	text-align: center;
+}
+
+#art2 {
+	width: 50%;
+	border: 3px solid steelblue;
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: 50%;
+	margin-bottom: 20px;
+	background-color: rgb(255, 255, 255, 0.9);
+}
+
+#art2 h2 {
+	text-align: center;
+}
+
+footer {
+	border: 3px solid steelblue;
+	background-color: whitesmoke;
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 15px;
+	margin-top: 20px;
+}
+
