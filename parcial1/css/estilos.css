@@ -9,10 +9,11 @@
 
 body {
 	background-image: url(../img/fondo.png);
+	background-attachment: fixed;
 }
 
 header {
-	width: 80%;
+	width: 90%;
 	border: 3px solid steelblue;
 	margin: auto; 
 	padding: 0;
@@ -38,39 +39,141 @@ ul {
 	list-style: none;
 }
 
-li {
+nav a {
+	text-decoration: none;
+	background-color: rgb(255, 255, 255, 0.6);
+}
+
+nav li {
 	display: inline-block;
+	margin: 10px;
+	padding: 10px;;
+}
+
+nav li a:link {
+	color: black;
 	border: 3px solid steelblue;
-	margin: 15px;
+	margin: 10px;
 	padding: 10px;
-	background-color: lightsteelblue;
+}
+
+nav li a:visited {
+	color: black;
+	border: 3px solid #256d85;
+	margin: 10px;
+	padding: 10px;
+}
+
+nav li a:hover {
+	color: black;
+	border: 3px solid #06283d;
+	margin: 10px;
+	padding: 10px;
+}
+
+nav li a:active {
+	color: black;
+	border: 3px solid steelblue;
+	margin: 10px;
+	padding: 10px;
 }
 
 #art1 {
+	display: inline-block;
 	width: 50%;
-	border: 3px solid steelblue;
-	padding: 5px;
-	margin-top: 20px;
+	border: 3px solid #4a8160;
+	padding: 39px;
+	margin-top: 60px;
 	margin-bottom: 20px;
 	background-color: rgb(255, 255, 255, 0.9);
+	vertical-align: top;
+}
+
+#img1 {
+	display: inline-block;
+	width: 49%;
+	border: 3px solid #4a8160;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	vertical-align: top;
 }
 
 #art1 h2 {
 	text-align: center;
 }
 
+#art1 h2 span {
+	background-color: #4a8160;
+}
+
+.uno span {
+	background-color: rgb(129, 182, 150, 0.9);
+	font-weight: bold;
+}
+
 #art2 {
+	display: inline-block;
 	width: 50%;
-	border: 3px solid steelblue;
-	padding: 5px;
-	margin-top: 20px;
-	margin-left: 50%;
+	border: 3px solid rgb(60, 60, 60, 1);
+	padding: 39px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	background-color: rgb(255, 255, 255, 0.9);
+	vertical-align: top;
+}
+
+#img2 {
+	display: inline-block;
+	width: 49%;
+	border: 3px solid rgb(60, 60, 60, 1);
+	margin-top: 10px;
+	margin-bottom: 20px;
+	vertical-align: top;
 }
 
 #art2 h2 {
 	text-align: center;
+}
+
+#art2 h2 span {
+	background-color: rgb(60, 60, 60, 1);
+}
+
+.dos span {
+	background-color: gray;
+	font-weight: bold;
+}
+
+#art3 {
+	display: inline-block;
+	width: 50%;
+	border: 3px solid steelblue; 
+	padding: 10px;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	background-color: rgb(225, 225, 225, 0.9);
+}
+
+#art3 h2, #art3 h3 {
+	text-align: center;
+}
+
+#art3 h2 span, #art3 h3 span {
+	background-color: steelblue;
+}
+
+#img3, #img4 {
+	display: inline-block;
+	margin: auto;
+}
+
+#img3 {
+	border: 3px solid indianred;
+}
+
+#img4 {
+	border: 3px solid #e3b958;
 }
 
 footer {
@@ -80,5 +183,10 @@ footer {
 	font-size: 1.5rem;
 	padding: 15px;
 	margin-top: 20px;
+}
+
+footer a {
+	color: #06283d;
+	background-color: #49b7fc;
 }
 
