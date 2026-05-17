@@ -83,7 +83,8 @@ nav li a:active {
 	margin: 10px;
 	padding: 10px;
 }
-
+/* PARA ACOMODAR ESTA SECCIÓN CON LA ESTRUCTURA QUE QUERÍA, UTILICÉ AYDUA DE LA IA*/
+/*--------------------------------------------------------------------*/
 #art1 {
 	display: inline-block;
 	width: 50%;
@@ -112,6 +113,7 @@ nav li a:active {
 	background-color: rgb(129, 182, 150, 0.9);
 	font-weight: bold;
 }
+/*--------------------------------------------------------------------*/
 
 #art2 {
 	display: inline-block;
