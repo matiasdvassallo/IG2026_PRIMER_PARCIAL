@@ -84,7 +84,7 @@ nav li a:active {
 /*--------------------------------------------------------------------*/
 #art1 {
 	display: inline-block;
-	width: 49%;
+	width: 50%;
 	border: 3px solid #4a8160;
 	padding: 39px;
 	margin-top: 60px;
@@ -139,6 +139,15 @@ nav li a:active {
 .dos span {
 	background-color: gray;
 	font-weight: bold;
+}
+
+#div3, #div4 {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 20px;
 }
 
 #art3 {
@@ -238,7 +247,6 @@ nav li a:active {
 	padding: 10px;
 	margin-bottom: 40px;
 	background-color: rgb(225, 225, 225, 0.9);
-	min-height: 300px;
 }
 
 #art5 h2 span {
